@@ -303,7 +303,7 @@ def main():
     st.title(APP_TITLE)
 
     # LOAD DATA
-    df = pd.read_excel('/Users/martin/Python/MRN3.xlsx')
+    df = pd.read_excel('MRN3.xlsx')
     data = pd.DataFrame().assign(
         Genre=df['Civilité'],
         Nom=df['Nom, Prénom bénéficiaire'],
