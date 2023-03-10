@@ -303,7 +303,7 @@ def main():
     st.title(APP_TITLE)
 
     # LOAD DATA
-    df = pd.read_excel('MRN3.xlsx')
+    df = pd.read_excel('https://github.com/tishbanks/villeduhavre/blob/64017b3e9aba8eebe4a696acbc5dc6c4860999f2/MRN3.xlsx')
     data = pd.DataFrame().assign(
         Genre=df['Civilité'],
         Nom=df['Nom, Prénom bénéficiaire'],
